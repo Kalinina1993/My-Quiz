@@ -2,7 +2,7 @@ def quiz():
     gritting = input("Your name: ")
     print(f"Hello, my dear, {gritting}. Let's play in one interesting game. I will ask you a question about the most "
           f"famous tv-show 'Friends'.\n Be careful and think twice before give the answer.\n In case of wrong answer "
-          f"you must to do some interesting things.\n For win you must score 10 points.Good luck!")
+          f"you will lose your points.\n For win you must score 10 points.Good luck!")
     points = 0
     question_1 = input("1 QUESTION.\n Name of the song that plays in the title credits: ")
     if question_1 == "I'll be there for you":
